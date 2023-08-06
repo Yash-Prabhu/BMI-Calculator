@@ -1,0 +1,504 @@
+body{
+    background-color: rgb(21, 20, 20);
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+  html{
+    scroll-behavior: smooth;
+  }
+
+  ::-webkit-scrollbar {
+    width: 13px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #454545;
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #ff7300;
+    border-radius: 5px;
+  }
+
+
+#myHeading{
+    margin-top: 100px;
+    font-family: Nova Square;
+    font-size: 8pc;
+    color: yellow;
+    transition: 0.5s;
+}
+
+#myHeading:hover{
+    
+    color: rgb(255, 0, 0);
+}
+#greet{
+    margin-top: 100px;
+    font-family:Lobster;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+    margin-bottom: 10.5pc;
+}
+#greet:hover{
+    color: yellow;
+}
+nav {
+    background-color: #ffffff;
+    border-radius: 20px;
+    color: #000000;
+    font-family: Nova Square;
+    text-align: right;
+    transition: 0.3s;
+  }
+
+  #logo{
+    width: 80px;
+    height: 60px;
+    float: left;
+    border-radius: 90px;
+    cursor: pointer;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    transition: 0.3s;
+    border-radius: 5px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #ecec29;
+  }
+  
+  #page1 {
+
+    width: 100%;
+    height: 115vh;
+    border-radius: 50px; 
+    background-color: #ffffff;
+    
+}
+
+#Head2{
+  
+  font-family: Nova Square;
+  font-size: 3.5pc;
+  color: #000000;
+  padding-top: 50px;
+}
+
+#hero{
+  width: 500px;
+  height: 500px;
+  float: left;
+
+}
+
+#intro{
+  margin-top: 100px;
+  margin-right: 100px;
+  text-align: left;
+  font-size: 30px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+#page4{
+
+  width: 100%;
+  height: 120vh; 
+  background-color: rgb(21, 20, 20);
+}
+
+h4{
+  font-size: 50px;
+  color: yellow;
+  font-family: Nova Square;
+  padding-top: 30px;
+}
+
+#bmi-hr{
+  width: 70%;
+  border-width: 4px;
+  border-radius: 10px;
+  border-top:none;
+  border-bottom-color: #ddff00;
+}
+#bmi-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.form2{
+  padding-top: 30px;
+  width: 400px;
+  height: 550px;
+  background-color: black;
+  color: #ffffff;
+  font-family: Nova Square;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.form2:hover{
+  background-color: rgb(12, 12, 12);
+  border-radius: 25px;
+}
+
+.form2 input{
+  margin-top: 30px;
+  padding:20px;
+  border-radius: 5px;
+  width: 250px;
+  outline: none;
+  border: none;
+  background-color: #e5e3e3;
+  transition: 0.5s;
+}
+
+.form2 input:hover{
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.form2 input::placeholder{
+  color: #000000;
+  font-family: Nova Square;
+}
+
+.form2 p{
+  font-size: 23px;
+}
+
+#bmi-hr2{
+  width: 50%;
+  border-radius: 5px;
+  border-top: none;
+  border-bottom-color:#eaff00 ;
+  border-width: 2px;
+  margin-top: 40px;
+}
+
+#form2-button{
+  padding: 20px;
+  color: #000000;
+  font-family: Nova Square;
+  width: 285px;
+  border: none;
+  border-radius: 5px;
+  background-color: #d9ff00;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+
+#form2-button:hover{
+  border-radius: 10px;
+  background-color: #ffaa00;
+}
+
+#BMI-P{
+  font-family: Lobster;
+  color: rgb(255, 179, 0);
+  font-size: 18px;
+}
+
+#cp{
+  width: 50%;
+  border-width: 2px;
+  border-radius: 10px;
+  border-top:none;
+  border-bottom-color: rgb(107, 100, 100);
+}
+.copyright{
+  font-family: Nova Square;
+  color: rgb(107, 100, 100);
+  font-size: 18px;
+}
+@media only screen and (max-width: 1000px) {
+
+  #myHeading{
+    margin-top: 100px;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    font-family: Nova Square;
+    font-size: 6pc;
+    color: yellow;
+    transition: 0.5s;
+}
+nav {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  color: #000000;
+  font-family: Nova Square;
+  text-align: center;
+  transition: 0.3s;
+  margin-left: 0;
+}
+
+#logo{
+ display: none;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+nav ul li #logout{
+  display: none;
+}
+
+#greet{
+  margin-top: 100px;
+  margin-left: 0;
+  display: flex;
+  justify-content: center;
+  font-family:Lobster;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  transition: 0.5s;
+  margin-bottom: 10.5pc;
+}
+
+#page1 {
+
+  width: 100%;
+  height:  auto; 
+  background-color: #ffffff;
+  
+}
+
+#Head2{
+
+font-family: Nova Square;
+font-size: 3.5pc;
+color: #000000;
+padding-top: 50px;
+}
+
+#hero{
+width: 100%;
+height: auto;
+float: left;
+}
+
+#intro{
+margin-top: 0;
+margin-left: 100px;
+padding-bottom: 5%;
+text-align: center;
+font-size: 25px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+#page4{
+  height: auto;
+  width: 100%;
+}
+
+h4{
+  font-size: 25px;
+  color: yellow;
+  font-family: Nova Square;
+  padding-top: 30px;
+}
+.form2{
+  padding-top: 30px;
+  width: 500px;
+  height: 580px;
+  margin-left:0;
+  background-color: black;
+  color: #ffffff;
+  font-family: Nova Square;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.form2 input::placeholder{
+  color: #000000;
+  font-family: Nova Square;
+  font-size: 20px;
+}
+
+#form2-button{
+  padding: 20px;
+  color: #000000;
+  font-family: Nova Square;
+  width: 285px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #d9ff00;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+
+}
+
+@media only screen and (max-width: 500px) {
+
+  #myHeading{
+    margin-top: 100px;
+    margin-left: 12%;
+    display: flex;
+    justify-content: flex-start;
+    font-family: Nova Square;
+    font-size: 5pc;
+    color: yellow;
+    transition: 0.5s;
+}
+nav {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  color: #000000;
+  font-family: Nova Square;
+  text-align: center;
+  transition: 0.3s;
+  margin-left: 0;
+}
+
+#logo{
+ display: none;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #000000;
+  font-size: 10px;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+nav ul li #logout{
+  display: none;
+}
+
+#greet{
+  margin-top: 100px;
+  margin-left: 15%;
+  display: flex;
+  justify-content: flex-start;
+  font-family:Lobster;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  transition: 0.5s;
+  margin-bottom: 10.5pc;
+}
+
+#page1 {
+
+  width: 100%;
+  height:  auto; 
+  background-color: #ffffff;
+  
+}
+
+#Head2{
+
+font-family: Nova Square;
+font-size: 3.5pc;
+color: #000000;
+padding-top: 50px;
+}
+
+#myHeading{
+  text-align: center;
+  margin-left: 10%;
+}
+#hero{
+width: 100%;
+height: 45%;
+float: left;
+}
+
+#intro{
+margin-top: 0;
+margin-left: 100px;
+padding-bottom: 20px;
+text-align: left;
+font-size: 17px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+#page4{
+  height: auto;
+  width: 100%;
+}
+
+h4{
+  font-size: 25px;
+  color: yellow;
+  font-family: Nova Square;
+  padding-top: 30px;
+}
+.form2{
+  padding-top: 30px;
+  width: 330px;
+  height: 550px;
+  margin-left:0;
+  background-color: black;
+  color: #ffffff;
+  font-family: Nova Square;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+
+}

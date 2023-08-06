@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nova Square&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <nav id="navbar">
+      <a href="#navbar">
+    <img src = "Gym.jpg" id="logo">
+      </a>
+        <ul>
+          <li><a href="#navbar">Home</a></li>
+          <li><a href="#page1">About</a></li>
+          <li><a href="#page4">BMI Calculator</a></li>
+          <li><a href="./index.html" id="logout">Logout</a></li>
+          &nbsp;
+          &nbsp;
+        </ul>
+      </nav>
+      <h1 id="myHeading"></h1>
+        <p id="greet"> " Hey ! You are on the right place "</p>
+        <section id = "page1">
+          <h1  id="Head2">Introduction</h1>
+          <img src = "gym2.jpg" id="hero">
+          <p id="intro">
+            Exercise should be an integral part of our everyday life
+            to be fit and healthy.This website is designed and conceptualised
+            to calculate your progress using BMI calculator.
+            <br>
+            <br>
+            " <b>Ideation  by Yash Prabhu</b> "
+          </p>
+        </section>
+        <section id ="page4">
+          <h4>BMI Calculator</h4>
+          <p id = "BMI-P">Want to calculate your BMI ? Go Ahead !</p>
+          <hr id="bmi-hr">
+          <div id="bmi-div">
+
+          <form class="form2">
+            <p>Height (in feet) : </p>
+            <hr id="bmi-hr2">
+            <input type="text" maxlength="5" autocomplete="off"  id="text1" placeholder="Enter Height * " name="text 1" value="" required="">
+            <br>
+            <br>
+            <p>Weight (in kg):</p>
+            <hr id="bmi-hr2">
+            <input type="text" maxlength="5" autocomplete="off"  id="text2" placeholder="Enter Weight * " name="text 2" value="" required="">
+            <br>
+            <br>
+            <br>
+            <br>
+            <button type="submit" id="form2-button" onclick="Calculate()">
+              Calculate BMI
+            </button>
+          </div>
+          </section>
+          <br><br><br><br><br><br><br>
+          <footer>
+            <hr id="cp">
+            <br>
+            <div class="copyright">
+                &copy; 2023 By Yash Prabhu. All rights reserved.
+            </div>
+        </footer>
+</body>
+
+</html>
